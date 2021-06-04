@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webpage</title>
+    <style>
+        * {
+            margin: 0 auto;
+            font-family: Georgia;
+        }
+
+        body {
+            padding: 10px;
+
+        }
+
+        .wrapper {
+            background: rgb(31 39 109);
+        }
+
+        .container {
+            max-width: 1120px;
+            color: white;
+        }
+
+        .header {
+            overflow: hidden;
+            padding: 20px 0;
+        }
+
+        .header-col {
+            float: left;
+            width: 50%;
+            box-sizing: border-box;
+        }
+
+        .logo-text {
+            font-size: 40px;
+
+        }
+
+        .navi-link {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            padding: 0px 17px;
+        }
+
+        .nav-bar {
+            margin-top: 10px;
+        }
+
+        .inner-container {
+            overflow: hidden;
+            margin-top: 100px;
+        }
+
+        .small-title {
+            color: rgb(0, 255, 255);
+        }
+
+        .big-title {
+            color: white;
+            font-size: 40px;
+            margin: 20px 0px;
+        }
+
+        .title-description {
+            color: white;
+            font-size: 18px;
+            margin: 0px 0px 25px 0px;
+        }
+
+        .starter-button {
+            color: black;
+            background: #00bcd4;
+            border-radius: 20px;
+            padding: 10px 20px;
+            border: none;
+            margin-bottom: 30px;
+            font-size: 16px;
+        }
+
+        .form-container {
+            background-color: white;
+            padding: 60px 30px;
+            border-radius: 10px;
+            color: black;
+            box-sizing: border-box;
+            margin-bottom: 50px;
+            max-width: 400px;
+        }
+
+        .form-container>label {
+            font-weight: bold;
+            display: block;
+            margin: 10px;
+            font-size: 18px;
+        }
+
+        .input-field {
+            border: none;
+            border-bottom: 1px solid gray;
+            padding: 7px 15px;
+            font-size: 18px;
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .form-btn {
+            background-color: rgb(31 39 109);
+            color: white;
+            display: block;
+            width: 100%;
+            margin: 20px auto;
+            font-size: 20px;
+            padding: 10px;
+            border-radius: 30px;
+            border: none;
+            margin-top: 50px;
+        }
+
+        footer {
+            
+            text-align: center;
+            color: white;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="header">
+                <div class="header-col"><span class="logo-text">Fold</span></div>
+                <div class="header-col nav-bar">
+                    <a href="#" class="navi-link">Products</a>
+                    <a href="#" class="navi-link">Features</a>
+                    <a href="#" class="navi-link">Reviews</a>
+                    <a href="#" class="navi-link">Pricing</a>
+                    <a href="#" class="navi-link">Sign Up</a>
+                </div>
+            </div>
+            <div class="inner-container">
+                <div class="header-col">
+                    <span class="small-title">New Feature</span><br>
+                    <P class="big-title">Data analytics & Neural networks.</P><br>
+                    <p class="title-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    <button class="starter-button">Get started</button>
+                </div>
+                <div class="header-col">
+                    <div class="form-container">
+                        <label for="companyName">Company*</label>
+                        <input type="text" name="company" class="input-field" placeholder="Company Name"
+                            id="companyName">
+                        <label for="email">Email*</label>
+                        <input type="email" name="email" class="input-field" placeholder="Email Address" id="email"
+                            required>
+                        <label for="message">Message*</label>
+                        <textarea name="message" id="message" rows="5" class="input-field"
+                            placeholder="Enter your message"></textarea>
+                        <button class="form-btn">Request Demo</button>
+                    </div>
+                </div>
+            </div>
+            <footer >
+                -------- 
+                &copy; 4th June 2021--------<br>
+                Developed by Bikas
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
